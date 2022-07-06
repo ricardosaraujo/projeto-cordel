@@ -15,7 +15,7 @@
 
 html, body {
     min-height: 100vh;
-    background-color: darkgrey;
+    background-color: white;
     font-family: var(--fonte1);
 }
 
@@ -92,8 +92,14 @@ section#img02{
 }
 
 footer{
-    background-color: black;
-    color: white;
+    background-color: rgba(169, 169, 169, 0.331);
+    color: rgba(0, 0, 0, 0.473);
+    max-width: 200px;
     text-align: center;
-    padding: 5px;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 6px;
+    margin: auto;
+    margin-right: 1px;
+    margin-bottom: 2px;
 }
